@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {Text, View, Button, StyleSheet} from 'react-native';
 import {PostImage as PostImageType} from '../../types';
 
