@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {Text, View, StyleSheet, Image, Button, Pressable} from 'react-native';
+import {Text, View, StyleSheet, Image, Button} from 'react-native';
 import {PostImage} from '../../types';
 
 const TodaysImage: FC<PostImage> = ({date, title, url}) => {
